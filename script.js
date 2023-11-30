@@ -29,6 +29,6 @@ console.log(fillcut("paper", 2))
 console.log(fillcut("paper", 20))
 console.log(fillcut("paper", 6))
 
-document.body.innerHTML += fillcut(`paper`, 4)
+document.body.innerHTML += (fillcut(`paper`, 4) + "<br>")
 document.body.innerHTML += fillcut(`paper`, 12)
 
